@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     "nuxt-primevue",
   ],
 
-  css: ["primevue/resources/themes/lara-dark-amber/theme.css"],
+  css: ["primevue/resources/themes/lara-dark-purple/theme.css"],
 
   // # Module Configuration
   pinia: {
