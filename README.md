@@ -1,75 +1,35 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 Setup
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Replace this with your project name.
 
-## Setup
+## Packages
 
-Make sure to install the dependencies:
+Here are the packages installed in this project, as listed in the `package.json` file:
 
-```bash
-# npm
-npm install
+- `@nuxt/devtools`: A development tool for Nuxt.js.
+- `@nuxtjs/eslint-config-typescript`: ESLint configuration for TypeScript in Nuxt.js.
+- `@nuxtjs/google-fonts`: A module for easily including Google Fonts in your Nuxt.js application.
+- `@nuxtjs/tailwindcss`: Tailwind CSS module for Nuxt.js.
+- `@pinia/nuxt`: Pinia module for Nuxt.js.
+- `@typescript-eslint/parser`: TypeScript parser for ESLint.
+- `@vueuse/nuxt`: VueUse functions for Nuxt.js.
+- `eslint`: A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+- `eslint-config-prettier`: Turns off all rules that are unnecessary or might conflict with Prettier.
+- `eslint-plugin-prettier`: Runs Prettier as an ESLint rule and reports differences as individual ESLint issues.
+- `nuxt`: A framework for creating Vue.js applications.
+- `nuxt-icon`: A module for easily including icons in your Nuxt.js application.
+- `prettier`: An opinionated code formatter.
+- `typescript`: A language for application-scale JavaScript.
+- `vue`: A progressive JavaScript framework.
+- `vue-router`: The official router for Vue.js.
 
-# pnpm
-pnpm install
+## Nuxt Modules
 
-# yarn
-yarn install
+Here are the modules used in this project, as listed in the `nuxt.config.ts` file:
 
-# bun
-bun install
-```
+- `@vueuse/nuxt`: Provides VueUse functions for Nuxt.js.
+- `@pinia/nuxt`: Provides Pinia state management for Nuxt.js.
+- `@nuxtjs/google-fonts`: Provides Google Fonts for Nuxt.js.
+- `nuxt-icon`: Provides icons for Nuxt.js.
+- `@nuxtjs/tailwindcss`: Provides Tailwind CSS for Nuxt.js.
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
