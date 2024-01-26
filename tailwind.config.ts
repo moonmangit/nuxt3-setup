@@ -17,9 +17,7 @@ export default {
     `${srcDir}/app.config.{js,ts}`,
   ],
   theme: {
-    extend: {
-    
-    },
+    extend: {},
   },
   plugins: [],
 } satisfies Config;

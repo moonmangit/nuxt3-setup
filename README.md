@@ -32,4 +32,3 @@ Here are the modules used in this project, as listed in the `nuxt.config.ts` fil
 - `@nuxtjs/google-fonts`: Provides Google Fonts for Nuxt.js.
 - `nuxt-icon`: Provides icons for Nuxt.js.
 - `@nuxtjs/tailwindcss`: Provides Tailwind CSS for Nuxt.js.
-
