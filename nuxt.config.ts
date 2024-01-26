@@ -12,9 +12,4 @@ export default defineNuxtConfig({
   pinia: {
     storesDirs: ["./stores"],
   },
-  googleFonts: {
-    families: {
-      Inter: true,
-    },
-  },
 });
