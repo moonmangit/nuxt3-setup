@@ -1,4 +1,6 @@
+import Daisyui from "daisyui";
 import type { Config } from "tailwindcss";
+import type { Config as DaisyuiConf } from "daisyui";
 
 const srcDir = ".";
 
@@ -19,5 +21,9 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [Daisyui],
+  daisyui: {
+    themes: ["light", "dark"],
+    darkTheme: "dark",
+  } as DaisyuiConf,
 } satisfies Config;

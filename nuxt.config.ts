@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "nuxt-icon",
     "@nuxtjs/tailwindcss",
+    "@vee-validate/nuxt",
   ],
 
   // # Module Configuration
