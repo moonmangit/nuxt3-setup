@@ -35,6 +35,7 @@
     "@vee-validate/nuxt": "^4.12.6",
     "@vee-validate/yup": "^4.12.6",
     "daisyui": "^4.7.3",
+    "firebase": "^10.9.0",
     "yup": "^1.4.0"
   }
 }
