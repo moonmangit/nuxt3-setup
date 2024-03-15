@@ -10,6 +10,6 @@ export default defineNuxtConfig({
 
   // # Module Configuration
   pinia: {
-    storesDirs: ["./stores"],
+    storesDirs: ["./controllers"],
   },
 });
